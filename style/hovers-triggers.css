@@ -1,0 +1,13 @@
+.main-element-trigger {
+    transition: 0.5s;
+    opacity: 0;
+    filter: blur(1px);
+}
+.main-element-trigger.main-element-trigger-show{
+    opacity: 1;
+    transition: 1s;
+    filter: blur(0px);
+}
+.main-element-trigger:hover {
+    transition: 1s;
+}
